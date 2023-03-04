@@ -1,0 +1,15 @@
+
+---
+version: "3" 
+
+services:
+        flask-app:
+                build:
+                  context: ./
+                  dockerfile: ./Dockerfile
+                ports:
+                    - 5000:5000
+                image: khanks/iss_tracker:1.1
+                volumes:
+                    - ./config.yaml:/config.yaml
+

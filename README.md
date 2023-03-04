@@ -284,6 +284,7 @@ Sample Output for curl localhost:5000/epochs/<epoch>/location
 	}
 
 Sample Output for curl localhost:5000/now                                  
+
 	{
 	  "location": {
 	    "closest_epoch": "2023-063T00:59:00.000Z",
